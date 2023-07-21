@@ -1,0 +1,187 @@
+:root {
+    --font: 'Alegreya Sans', sans-serif;
+    --Gold: #8E7754;
+    --fontcolor: #D6D3C9;
+    --bgcolor: #F8F8F8
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font);
+}
+
+/* START NAV BAR */
+nav img {
+    width: 175px;
+}
+
+.navbar-nav .nav-link {
+    font-family: var(--font);
+    color: var(--fontcolor);
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.dropdown-menu.blog {
+    background-color: #584b36;
+}
+
+.dropdown-item:hover {
+    background-color: var(--Gold);
+}
+
+.settings {
+    position: fixed;
+    top: 30%;
+    width: 50px;
+    right: 0;
+}
+
+.settings i {
+    transition: all 0.3s;
+}
+
+.settings i:hover {
+    color: blue;
+}
+
+/* END NAV BAR */
+
+/* START SECTION HOME */
+#home {
+    background-image: url(../img/drew-coffman-1872\ \(1\).jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#home h6,
+h1,
+h5 {
+    font-family: var(font);
+}
+
+.learn-more.btn.btn-secondary {
+    background-color: var(--Gold);
+    border: var(--Gold) solid 2px;
+    transition: all 0.3s
+}
+
+.btn.btn-secondary.contact-us {
+    background-color: transparent;
+    transition: all 0.3s;
+    border: white solid 2px;
+}
+
+.btn.btn-secondary:hover {
+    background-color: white;
+    color: black;
+    border: white solid 2px;
+}
+
+/* END SECTION HOME */
+
+/* START SECTION ABOUT */
+#about ul li span {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+#about ul li i {
+    color: var(--Gold);
+    font-size: 30px;
+}
+
+/* END SECTION ABOUT */
+/* START SECTION LOCATION */
+#location {
+    background-color: var(--bgcolor);
+}
+
+/* END SECTION LOCATION */
+
+/* START SECTION GALLERY */
+/* END SECTION GALLERY */
+/* START SECTION CONTACT */
+#contact {
+    background-color: var(--bgcolor);
+}
+
+#contact ul li span {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    padding-top: 7px;
+    background-color: var(--Gold);
+}
+
+#contact ul li i {
+    color: white;
+    font-size: 20px;
+}
+
+/* END SECTION CONTACT */
+/* START SECTION INFORMATION */
+#information {
+    background-color: #403D38;
+}
+
+#information h5 {
+    color: white;
+}
+
+#information li {
+    color: #969696 !important;
+    font-size: 0.9rem !important;
+}
+
+#information p {
+    color: #969696 !important;
+    font-size: 0.9rem !important
+}
+
+#information .list-link li a {
+    color: #969696 !important;
+    transition: all 0.3s;
+}
+
+#information .list-link a:hover {
+    color: #ffffff !important
+}
+
+footer {
+    background-color: #353330;
+}
+
+footer i {
+    color: #969696 !important;
+    font-size: 1.3rem !important;
+}
+
+footer p {
+    color: #969696 !important;
+    font-size: 0.9rem !important;
+}
+
+footer span {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    padding-top: 6px;
+    background-color: #403D38;
+}
+
+/* END SECTION INFORMATION */
+/* START SECTION FOOTER */
+/* END SECTION FOOTER */
